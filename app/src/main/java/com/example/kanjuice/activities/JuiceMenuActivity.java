@@ -44,7 +44,7 @@ import retrofit.client.Response;
 public class JuiceMenuActivity extends Activity {
 
     private static final String TAG = "JuiceMenuActivity";
-    private static final String TOKEN_URL = "http://10.132.127.212:4000";
+    private static final String TOKEN_URL = "http://54.255.184.116:9090";
     private JuiceAdapter adapter;
     private boolean isInMultiSelectMode = false;
     private View goButton;
@@ -53,7 +53,7 @@ public class JuiceMenuActivity extends Activity {
     private View noNetworkView;
     private GridView juicesView;
     private View menuLoadingView;
-    private BroadcastReceiver broadcastReceiver;
+    private BroadcastReceiver broadcastReceiver ;
     private Logger logger = Logger.loggerFor(JuiceMenuActivity.class);
 
     @Override

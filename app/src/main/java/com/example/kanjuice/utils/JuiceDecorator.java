@@ -50,13 +50,12 @@ public class JuiceDecorator {
         imageIdMap.put("register user", R.drawable.register_user);
         imageIdMap.put("fruits", R.drawable.fruits);
         imageIdMap.put("strawberry milk shake", R.drawable.strawberry);
-        imageIdMap.put("coffee", R.drawable.coffee_tea);
-        imageIdMap.put("tea", R.drawable.coffee_tea);
-        imageIdMap.put("black tea", R.drawable.black_tea);
-        imageIdMap.put("ginger elachi tea", R.drawable.ginger_elachi_tea);
-        imageIdMap.put("ragi malt", R.drawable.ragi_malt);
+        imageIdMap.put("tea - தேநீர்", R.drawable.tea);
+        imageIdMap.put("coffee - குழம்பி", R.drawable.coffee);
+        imageIdMap.put("ginger / elachi tea", R.drawable.ginger_tea);
         imageIdMap.put("milk", R.drawable.milk);
-
+        imageIdMap.put("black tea", R.drawable.black_tea);
+        imageIdMap.put("ragi malt", R.drawable.ragi_malt);
 
         kanTextMap = new HashMap<>();
         kanTextMap.put("amla", R.string.amla_kan);
