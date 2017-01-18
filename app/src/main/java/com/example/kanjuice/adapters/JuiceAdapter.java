@@ -234,13 +234,13 @@ public class JuiceAdapter extends BaseAdapter implements View.OnClickListener {
     private void addRegisterOption() {
         String registerUser = "Register User";
         juiceItems.add(new JuiceItem(registerUser, JuiceDecorator.matchImage(registerUser),
-                                     JuiceDecorator.matchKannadaName(registerUser),false, false));
+                                     JuiceDecorator.matchTamilName(registerUser),false, false));
     }
 
     private void addFruitSection() {
         String fruits = "Fruits";
         juiceItems.add(new JuiceItem(fruits, JuiceDecorator.matchImage(fruits),
-                JuiceDecorator.matchKannadaName(fruits),false, false));
+                JuiceDecorator.matchTamilName(fruits),false, false));
     }
 
 

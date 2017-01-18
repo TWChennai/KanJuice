@@ -133,7 +133,7 @@ public class AdminActivity extends Activity implements CompoundButton.OnCheckedC
             titleView.setText(juice.name);
 
             TextView kanTitleView = (TextView) view.findViewById(R.id.title_kan);
-            kanTitleView.setText(JuiceDecorator.matchKannadaName(juice.name));
+            kanTitleView.setText(JuiceDecorator.matchTamilName(juice.name));
 
             CheckBox availabilityView = (CheckBox) view.findViewById(R.id.availability);
             availabilityView.setChecked(juice.available);

@@ -50,7 +50,12 @@ public class JuiceDecorator {
         imageIdMap.put("register user", R.drawable.register_user);
         imageIdMap.put("fruits", R.drawable.fruits);
         imageIdMap.put("strawberry milk shake", R.drawable.strawberry);
-        imageIdMap.put("coffee/tea", R.drawable.coffee_tea);
+        imageIdMap.put("coffee", R.drawable.coffee_tea);
+        imageIdMap.put("tea", R.drawable.coffee_tea);
+        imageIdMap.put("black tea", R.drawable.black_tea);
+        imageIdMap.put("ginger elachi tea", R.drawable.ginger_elachi_tea);
+        imageIdMap.put("ragi malt", R.drawable.ragi_malt);
+        imageIdMap.put("milk", R.drawable.milk);
 
 
         kanTextMap = new HashMap<>();
@@ -93,7 +98,12 @@ public class JuiceDecorator {
         kanTextMap.put("custardapple", R.string.custard_apple);
         kanTextMap.put("papaya", R.string.papaya);
         kanTextMap.put("fruits", R.string.fruits);
-        kanTextMap.put("coffee/tea", R.string.coffee_tea);
+        kanTextMap.put("coffee", R.string.coffee);
+        kanTextMap.put("tea", R.string.tea);
+        kanTextMap.put("ragi malt", R.string.ragi_malt);
+        kanTextMap.put("milk", R.string.milk);
+        kanTextMap.put("black tea", R.string.black_tea);
+        kanTextMap.put("ginger elachi tea", R.string.ginger_elachi_tea);
 
     }
 
@@ -105,7 +115,7 @@ public class JuiceDecorator {
         return id;
     }
 
-    public static int matchKannadaName(String name) {
+    public static int matchTamilName(String name) {
         Integer id = kanTextMap.get(name.toLowerCase().trim());
         if (id == null) {
             id = R.string.unknown_kan;

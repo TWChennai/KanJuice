@@ -60,7 +60,12 @@
     <string name="papaya">பப்பாளி</string>
     <string name="custard_apple">சீதாப்பழ </string>
     <string name="fruits">பழங்கள்</string>
-    <string name="coffee_tea">காப்பி / தேநீர்</string>
+    <string name="coffee">காப்பி</string>
+    <string name="tea">தேநீர்</string>
+    <string name="black_tea">கருந் தேநீர்</string>
+    <string name="ragi_malt">ராகி முளைதானியம்</string>
+    <string name="milk">பால்</string>
+    <string name="ginger_elachi_tea">இஞ்சி ஏலக்காய் தேநீர்</string>
     <string name="swipe_your_card_to_register">Swipe your card to register</string>
     <string name="title_activity_fruits">Fruits section</string>
     <string name="bangalore">Bangalore</string>

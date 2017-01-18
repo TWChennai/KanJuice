@@ -179,7 +179,7 @@ public class JuiceMenuActivity extends Activity {
     private void decorate(List<Juice> juices) {
         for (Juice juice : juices) {
             juice.imageId = JuiceDecorator.matchImage(juice.name);
-            juice.kanId = JuiceDecorator.matchKannadaName(juice.name);
+            juice.kanId = JuiceDecorator.matchTamilName(juice.name);
         }
     }
 
